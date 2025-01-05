@@ -13,9 +13,19 @@ El dataset contiene una columna "rating" que almacena la clasificación ESRB de 
     - Se loo repositorio en VS
     - Se creo un archivo Project_S7.ipynb
     - Se creo n entorno con en nombre Project_env
-    - Se instalo pandas, streamlit y matploylip
+    - Se instalo pandas, streamlit y matplotlip
 
 2. Archivo con tabla de datos
     - Se descargo el archivo games.csv y se guardo en la carpeta mac_project_s7
 
+
 3. Preparacion de los datos
+    - Se hizo la importación de pandas, numpy y matplotlip
+    - Se se leyo el archivo cargado y se hizo lo siguiente:
+        1. Se convirtio en minuscula todos los nombres de las columnas
+        2. Se cambio el formato de la clumna year_of_release de float a int
+        3. Limpiar los nombres de las columnas y corregir los tipos de datos
+        4. Convertir la columna year_of_release en int y eliminar valores ausentes
+        5. Reemplazar TBD en user_score con NaN
+        6  Agregar la columna total_sales
+
